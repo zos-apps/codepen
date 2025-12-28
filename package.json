@@ -21,7 +21,21 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Online code editor for HTML, CSS, and JavaScript with live preview.",
+    "help": [
+      "Write code in editors",
+      "See live preview",
+      "Console shows JS output"
+    ],
+    "docs": "https://zos-apps.github.io/codepen",
+    "site": "https://github.com/zos-apps/codepen",
+    "features": [
+      "Live preview",
+      "HTML/CSS/JS editors",
+      "Console output",
+      "Save pens"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -54,5 +68,13 @@
     "codepen",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
