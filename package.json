@@ -35,7 +35,25 @@
       "HTML/CSS/JS editors",
       "Console output",
       "Save pens"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/codepen"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "codepen"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/codepen/issues",
+    "changelog": "https://github.com/zos-apps/codepen/releases"
   },
   "scripts": {
     "build": "tsup",
