@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/codepen",
+  "name": "@zos-apps/codepen",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,15 @@
     "icon": "✏️",
     "category": "creative",
     "description": "Social development environment for front-end designers and developers",
-    "permissions": ["storage.local", "network"],
+    "permissions": [
+      "storage.local",
+      "network"
+    ],
     "window": {
-      "defaultSize": { "width": 1200, "height": 800 },
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
       "resizable": true
     }
   },
@@ -30,5 +36,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Social development environment for front-end designers and developers",
+  "homepage": "https://zos-apps.github.io/codepen",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/codepen.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/codepen/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "codepen",
+    "macos",
+    "desktop"
+  ]
 }

@@ -1,50 +1,55 @@
 # ✏️ CodePen
 
-Social development environment for front-end designers and developers
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/codepen/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/codepen)
 
-## Category
-`creative`
+> Social development environment for front-end designers and developers
+
+**[Documentation](https://zos-apps.github.io/codepen)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/codepen
-# or
-pnpm add @anthropic/codepen
+npm install github:zos-apps/codepen
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/codepen';
+import CodePen from '@zos-apps/codepen';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <CodePen />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**Creative**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `storage.local`
+- `network`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/codepen)
+- [GitHub Repository](https://github.com/zos-apps/codepen)
+- [Report Issues](https://github.com/zos-apps/codepen/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
