@@ -1,10 +1,10 @@
-import React from 'react';
+
 
 interface CodePenProps {
   onClose: () => void;
 }
 
-const CodePen: React.FC<CodePenProps> = ({ onClose }) => {
+const CodePen: React.FC<CodePenProps> = ({ onClose: _onClose }) => {
   return (
     <div className="h-full w-full bg-[#1e1f26]">
       <iframe
